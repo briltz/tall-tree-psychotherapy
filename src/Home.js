@@ -16,11 +16,8 @@ class Home extends React.Component {
                         </div>
                         <div className="information">
                             <div className="name">Tracy Bertrim, MA, RP</div>
-                            <div className="contact">www.talltreepsychotherapy.ca</div>
-                            <div className="contact">tracy@talltreepsychotherapy.ca</div>
-                            <div className="contact">416.995.8006</div>
                         </div>
-                        <Link to='/contact'><button className="home-button">Get in Touch</button></Link>
+                        <Link to='/contact'><button className="home-button">CONTACT ME</button></Link>
                     </div>
                 </div>
                 <div className="home-info">

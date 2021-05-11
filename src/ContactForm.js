@@ -36,6 +36,9 @@ class ContactForm extends React.Component {
             });
         }
         else{
+            this.setState({
+                message: 'Sending message...'
+            });
             emailjs.sendForm('service_7u3xx4f', 'template_jlxdog6', e.target, 'user_rOlcwNHj5N8gq6GYBPeyK')
             .then((result) => {
             console.log(result.text);

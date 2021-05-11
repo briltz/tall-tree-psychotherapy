@@ -7,7 +7,9 @@ class Learn extends React.Component {
     render() {
         return(
             <div>
-                <div className="header1">What is Psychotherapy?</div>
+                <div className="header-image3">
+                    <div className="services2">What is Psychotherapy?</div>
+                </div>
                 <div className="learn-container">
                     <div>
                         <div className="subheader2">What Can I Expect From a Psychotherapy Session?</div>

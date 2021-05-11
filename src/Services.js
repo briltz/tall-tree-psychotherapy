@@ -7,7 +7,9 @@ class Services extends React.Component {
     render() {
         return(
             <div>
-                <div className="header1">Services</div>
+                <div className="header-image">
+                <div className="services1">Services</div>
+                </div>
                 <div className="services-container">
                     <div>
                         <div className="subheader2">Assessment</div>

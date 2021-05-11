@@ -7,7 +7,7 @@ class Navbar extends React.Component {
     render() {
         return(
             <div class="navbar">
-                <Link to='/'><img src={logo} alt="Logo" height="50px"/></Link>
+                <Link to='/'><img src={logo} alt="Logo" height="80px"/></Link>
                 <div className="nav-items">
                     <Link to='/' className="nav-item">HOME</Link>
                     <Link to='/about' className="nav-item">ABOUT ME</Link>

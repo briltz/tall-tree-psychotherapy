@@ -7,7 +7,9 @@ class FAQ extends React.Component {
     render() {
         return(
             <div>
-                <div className="header1">Common Questions</div>
+                <div className="header-image2">
+                    <div className="services1">FAQ</div>
+                </div>
                 <div className="faq-container">
                     <div>
                         <div className="subheader2">What is your dog's name?</div>
