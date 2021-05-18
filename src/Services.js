@@ -8,7 +8,7 @@ class Services extends React.Component {
         return(
             <div>
                 <div className="header-image">
-                <div className="services1">Services</div>
+                    <div className="services1">Services</div>
                 </div>
                 <div className="services-container">
                     <div>

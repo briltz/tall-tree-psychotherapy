@@ -11,7 +11,7 @@ class Home extends React.Component {
                 <div className="homepage">
                     <div className="home-card">
                         <div className="header-container">
-                            <img src={logo} alt="Logo" width="200px" className="logo"/>
+                            <img src={logo} alt="Logo" className="logo"/>
                             <img src={title} alt="Title" className="title"/>
                         </div>
                         <div className="information">
