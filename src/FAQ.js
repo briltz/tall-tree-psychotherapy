@@ -46,30 +46,30 @@ class FAQ extends React.Component {
                 <div className="header-image2">
                     <div className="services1">FAQ</div>
                 </div>
-                <div className="faq-container">
+                <div>
                     <div>
-                    <ReactCardFlip isFlipped={this.state.q1} flipDirection="horizontal">
+                    <ReactCardFlip isFlipped={this.state.q1} flipDirection="vertical">
                         <button onClick={this.q1Flip} className="faq-card">
                             <div className="faq-question">
                                 What is your dog's name?
                             </div>
                         </button>
 
-                        <button onClick={this.q1Flip} className="faq-card">
+                        <button onClick={this.q1Flip} className="faq-card2">
                             <div className="faq-answer">
                                 My dog's name is Mara. She is a good doggy.
                             </div>
                         </button>
                     </ReactCardFlip>
 
-                    <ReactCardFlip isFlipped={this.state.q2} flipDirection="horizontal">
+                    <ReactCardFlip isFlipped={this.state.q2} flipDirection="vertical">
                         <button onClick={this.q2Flip} className="faq-card">
                             <div className="faq-question">
                                 What is your cat's name?
                             </div>
                         </button>
 
-                        <button onClick={this.q2Flip} className="faq-card">
+                        <button onClick={this.q2Flip} className="faq-card2">
                             <div className="faq-answer">
                                 My cat's name is Georgia. She is a good kitty cat.
                             </div>
@@ -84,7 +84,7 @@ class FAQ extends React.Component {
                             </div>
                         </button>
 
-                        <button onClick={this.q3Flip} className="faq-card">
+                        <button onClick={this.q3Flip} className="faq-card2">
                             <div className="faq-answer">
                             Psychotherapy (also psychological therapy or talking therapy) is the use of psychological methods, particularly when based on regular personal interaction with adults, to help a person change behavior and overcome problems in desired ways. Psychotherapy aims to improve an individual's well-being and mental health, to resolve or mitigate troublesome behaviors, beliefs, compulsions, thoughts, or emotions, and to improve relationships and social skills.
                             </div>
@@ -98,7 +98,7 @@ class FAQ extends React.Component {
                             </div>
                         </button>
 
-                        <button onClick={this.q4Flip} className="faq-card">
+                        <button onClick={this.q4Flip} className="faq-card2">
                             <div className="faq-answer">
                                 Jake Briltz is the coolest guy I know.
                             </div>

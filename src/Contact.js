@@ -7,7 +7,9 @@ class Contact extends React.Component {
     render() {
         return(
             <div>
-                <div className="header1">Contact</div>
+                <div className="header-image6">
+                    <div className="services1">Contact</div>
+                </div>
                 <Form />
                 <div>
                     <div className="contact-info">Email: tracy@talltreepsychotherapy.ca</div>

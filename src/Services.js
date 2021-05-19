@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import pic1 from './Services1.png';
-import pic2 from './Services2.png';
+import pic1 from './Services4.jpg';
+import pic2 from './FAQ1.png';
 
 class Services extends React.Component {
     render() {

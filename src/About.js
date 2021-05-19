@@ -7,7 +7,7 @@ class About extends React.Component {
     render() {
         return(
             <div>
-                <div className="header-image">
+                <div className="header-image5">
                     <div className="services1">About Me</div>
                 </div>
                 <div className="about-container">
