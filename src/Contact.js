@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 import Form from './ContactForm';
+import Topbar from './Topbar';
 
 class Contact extends React.Component {
 
     render() {
         return(
             <div>
+                <Topbar />
                 <div className="header-image6">
                     <div className="services1">Contact</div>
                 </div>

@@ -3,6 +3,7 @@ import './App.css';
 import pic1 from './FAQ1.png';
 import pic2 from './FAQ2.png';
 import ReactCardFlip from 'react-card-flip';
+import Topbar from './Topbar';
 
 class FAQ extends React.Component {
 
@@ -43,11 +44,12 @@ class FAQ extends React.Component {
     render() {
         return(
             <div>
+                <Topbar />
                 <div className="header-image2">
                     <div className="services1">FAQ</div>
                 </div>
                 <div>
-                    <div>
+                    <div className="faq-container">
                     <ReactCardFlip isFlipped={this.state.q1} flipDirection="vertical">
                         <button onClick={this.q1Flip} className="faq-card">
                             <div className="faq-question">
@@ -61,7 +63,8 @@ class FAQ extends React.Component {
                             </div>
                         </button>
                     </ReactCardFlip>
-
+                    </div>
+                    <div className="faq-container">
                     <ReactCardFlip isFlipped={this.state.q2} flipDirection="vertical">
                         <button onClick={this.q2Flip} className="faq-card">
                             <div className="faq-question">
@@ -76,7 +79,7 @@ class FAQ extends React.Component {
                         </button>
                     </ReactCardFlip>
                     </div>
-                    <div>
+                    <div className="faq-container">
                     <ReactCardFlip isFlipped={this.state.q3} flipDirection="vertical">
                         <button onClick={this.q3Flip} className="faq-card">
                             <div className="faq-question">
@@ -90,7 +93,8 @@ class FAQ extends React.Component {
                             </div>
                         </button>
                     </ReactCardFlip>
-
+                    </div>
+                    <div className="faq-container">
                     <ReactCardFlip isFlipped={this.state.q4} flipDirection="vertical">
                         <button onClick={this.q4Flip} className="faq-card">
                             <div className="faq-question">

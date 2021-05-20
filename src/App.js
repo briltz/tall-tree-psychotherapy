@@ -1,6 +1,6 @@
 import './App.css';
-import Navbar from './Navbar';
-import Home from './Home';
+import Topbar from './Topbar';
+import Home2 from './Home2';
 import Contact from './Contact';
 import About from './About';
 import Learn from './Learn';
@@ -12,8 +12,7 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
-      <Navbar></Navbar>
-      <Route path="/" exact component={Home}/>
+      <Route path="/" exact component={Home2}/>
       <Route path="/contact" exact component={Contact}/>
       <Route path="/about" exact component={About}/>
       <Route path="/learn" exact component={Learn}/>

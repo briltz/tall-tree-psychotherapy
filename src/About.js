@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 import pic1 from './About1.png';
 import pic2 from './About2.jpg';
+import Topbar from './Topbar';
 
 class About extends React.Component {
     render() {
         return(
             <div>
+                <Topbar />
                 <div className="header-image5">
                     <div className="services1">About Me</div>
                 </div>

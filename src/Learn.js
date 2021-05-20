@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 import pic1 from './Learn1.png';
 import pic2 from './About1.png';
+import Topbar from './Topbar';
 
 class Learn extends React.Component {
     render() {
         return(
             <div>
+                <Topbar />
                 <div className="header-image3">
                     <div className="services2">What is Psychotherapy?</div>
                 </div>
