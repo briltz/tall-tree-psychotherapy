@@ -1,13 +1,18 @@
 import React from 'react';
 import './App.css';
 import pic1 from './Services4.jpg';
-import pic2 from './FAQ1.png';
+import pic2 from './FAQ1.jpg';
 import Topbar from './Topbar';
+import { AnimatePresence, motion } from 'framer-motion';
 
 class Services extends React.Component {
     render() {
         return(
-            <div>
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+            >
                 <Topbar />
                 <div className="header-image">
                     <div className="services1">Services</div>
@@ -30,7 +35,7 @@ class Services extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         )
     }
 }

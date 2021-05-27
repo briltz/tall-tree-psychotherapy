@@ -268,7 +268,7 @@
 }
 
 .header-image {
-  background-image: url("./Services3.png");
+  background-image: url("./Services3.jpg");
   background-size: cover;
   height: 400px;
   display: flex;
@@ -278,7 +278,7 @@
 }
 
 .header-image2 {
-  background-image: url("./Background8.png");
+  background-image: url("./Background8.jpg");
   background-size: cover;
   height: 400px;
   display: flex;
@@ -288,7 +288,7 @@
 }
 
 .header-image3 {
-  background-image: url("./Background7.png");
+  background-image: url("./Background7.jpg");
   background-size: cover;
   height: 400px;
   display: flex;
@@ -308,7 +308,7 @@
 }
 
 .header-image5 {
-  background-image: url("./Background2.png");
+  background-image: url("./Background2.jpg");
   background-size: cover;
   height: 400px;
   display: flex;
@@ -318,7 +318,7 @@
 }
 
 .header-image6 {
-  background-image: url("./Background5.png");
+  background-image: url("./Background5.jpg");
   background-size: cover;
   height: 400px;
   display: flex;
@@ -421,6 +421,7 @@
   position: fixed;
   top: 15px;
   cursor: pointer;
+  background-color: #EBEDEC;
 }
 
 .topbar-info {
@@ -430,6 +431,7 @@
   position: fixed;
   top: 15px;
   right: 20px;
+  text-align: right;
 }
 
 .home-container {
@@ -442,8 +444,11 @@
   width: 50%;
   height: 100%;
   position: fixed;
-  text-align: left;
   padding: 10px;
+  background-color: #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-pic {
@@ -484,4 +489,31 @@
 
 .home-img {
   border-radius: 20px;
+  position: fixed;
+}
+
+.home-title {
+  display: flex;
+  align-items: baseline;
+  position: fixed;
+  top: 1%;
+  z-index: 1000;
+  height: 10%;
+  padding-right: 1%;
+}
+
+.home-words {
+  position: fixed;
+  top: 12%;
+  z-index: 1000;
+  height: 10%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 2.5vh;
+}
+
+.title-cont {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }

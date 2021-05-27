@@ -30,6 +30,7 @@ class Topbar extends React.Component {
                 </div>
                 <button className="menu-button" onClick={this.toggleSide}><img src={menu} alt="Menu" height="40px"/></button>
                 <div className="topbar-info">
+                    <div>Tracy Bertrim, MA, RP</div>
                     <div>tracy@talltreepsychotherapy.ca</div>
                     <div>416-995-8006</div>
                 </div>

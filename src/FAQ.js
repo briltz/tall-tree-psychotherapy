@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css';
-import pic1 from './FAQ1.png';
-import pic2 from './FAQ2.png';
 import ReactCardFlip from 'react-card-flip';
 import Topbar from './Topbar';
+import { AnimatePresence, motion } from 'framer-motion';
 
 class FAQ extends React.Component {
 
@@ -43,7 +42,11 @@ class FAQ extends React.Component {
 
     render() {
         return(
-            <div>
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+            >
                 <Topbar />
                 <div className="header-image2">
                     <div className="services1">FAQ</div>
@@ -110,7 +113,7 @@ class FAQ extends React.Component {
                     </ReactCardFlip>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         )
     }
 }
