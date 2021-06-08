@@ -1,33 +1,32 @@
 {
   "files": {
-    "main.css": "/tall-tree-psychotherapy/static/css/main.83aa0e99.chunk.css",
-    "main.js": "/tall-tree-psychotherapy/static/js/main.ec148368.chunk.js",
-    "main.js.map": "/tall-tree-psychotherapy/static/js/main.ec148368.chunk.js.map",
-    "runtime-main.js": "/tall-tree-psychotherapy/static/js/runtime-main.f0bdfef4.js",
-    "runtime-main.js.map": "/tall-tree-psychotherapy/static/js/runtime-main.f0bdfef4.js.map",
-    "static/js/2.59edc7d5.chunk.js": "/tall-tree-psychotherapy/static/js/2.59edc7d5.chunk.js",
-    "static/js/2.59edc7d5.chunk.js.map": "/tall-tree-psychotherapy/static/js/2.59edc7d5.chunk.js.map",
-    "static/js/3.9855ef17.chunk.js": "/tall-tree-psychotherapy/static/js/3.9855ef17.chunk.js",
-    "static/js/3.9855ef17.chunk.js.map": "/tall-tree-psychotherapy/static/js/3.9855ef17.chunk.js.map",
+    "main.css": "/tall-tree-psychotherapy/static/css/main.56afe431.chunk.css",
+    "main.js": "/tall-tree-psychotherapy/static/js/main.d7b3c574.chunk.js",
+    "main.js.map": "/tall-tree-psychotherapy/static/js/main.d7b3c574.chunk.js.map",
+    "runtime-main.js": "/tall-tree-psychotherapy/static/js/runtime-main.e9c56e51.js",
+    "runtime-main.js.map": "/tall-tree-psychotherapy/static/js/runtime-main.e9c56e51.js.map",
+    "static/js/2.5b73c9a7.chunk.js": "/tall-tree-psychotherapy/static/js/2.5b73c9a7.chunk.js",
+    "static/js/2.5b73c9a7.chunk.js.map": "/tall-tree-psychotherapy/static/js/2.5b73c9a7.chunk.js.map",
+    "static/js/3.73949304.chunk.js": "/tall-tree-psychotherapy/static/js/3.73949304.chunk.js",
+    "static/js/3.73949304.chunk.js.map": "/tall-tree-psychotherapy/static/js/3.73949304.chunk.js.map",
     "index.html": "/tall-tree-psychotherapy/index.html",
-    "static/css/main.83aa0e99.chunk.css.map": "/tall-tree-psychotherapy/static/css/main.83aa0e99.chunk.css.map",
-    "static/js/2.59edc7d5.chunk.js.LICENSE.txt": "/tall-tree-psychotherapy/static/js/2.59edc7d5.chunk.js.LICENSE.txt",
+    "static/css/main.56afe431.chunk.css.map": "/tall-tree-psychotherapy/static/css/main.56afe431.chunk.css.map",
+    "static/js/2.5b73c9a7.chunk.js.LICENSE.txt": "/tall-tree-psychotherapy/static/js/2.5b73c9a7.chunk.js.LICENSE.txt",
     "static/media/About1.b0ba65fa.jpg": "/tall-tree-psychotherapy/static/media/About1.b0ba65fa.jpg",
     "static/media/About2.0386db03.jpg": "/tall-tree-psychotherapy/static/media/About2.0386db03.jpg",
     "static/media/App.css": "/tall-tree-psychotherapy/static/media/Services3.8a1d2d43.jpg",
     "static/media/ContactMain.06dbce04.jpg": "/tall-tree-psychotherapy/static/media/ContactMain.06dbce04.jpg",
     "static/media/FAQ1.cc7d9d4d.jpg": "/tall-tree-psychotherapy/static/media/FAQ1.cc7d9d4d.jpg",
-    "static/media/FAQMain.5c693469.jpg": "/tall-tree-psychotherapy/static/media/FAQMain.5c693469.jpg",
+    "static/media/FAQMain.8e66fe26.jpg": "/tall-tree-psychotherapy/static/media/FAQMain.8e66fe26.jpg",
     "static/media/LearnMain.675f1f0c.jpg": "/tall-tree-psychotherapy/static/media/LearnMain.675f1f0c.jpg",
+    "static/media/Logo-No-Background.a591a154.png": "/tall-tree-psychotherapy/static/media/Logo-No-Background.a591a154.png",
     "static/media/Services1.3b0abf06.jpg": "/tall-tree-psychotherapy/static/media/Services1.3b0abf06.jpg",
-    "static/media/Services4.98b0fdb8.jpg": "/tall-tree-psychotherapy/static/media/Services4.98b0fdb8.jpg",
-    "static/media/TTP_Logo_PNG.d5d4b712.png": "/tall-tree-psychotherapy/static/media/TTP_Logo_PNG.d5d4b712.png",
-    "static/media/TTP_Words1.48a07a6f.png": "/tall-tree-psychotherapy/static/media/TTP_Words1.48a07a6f.png"
+    "static/media/Services4.98b0fdb8.jpg": "/tall-tree-psychotherapy/static/media/Services4.98b0fdb8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f0bdfef4.js",
-    "static/js/2.59edc7d5.chunk.js",
-    "static/css/main.83aa0e99.chunk.css",
-    "static/js/main.ec148368.chunk.js"
+    "static/js/runtime-main.e9c56e51.js",
+    "static/js/2.5b73c9a7.chunk.js",
+    "static/css/main.56afe431.chunk.css",
+    "static/js/main.d7b3c574.chunk.js"
   ]
 }
