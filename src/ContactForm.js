@@ -10,10 +10,12 @@ class ContactForm extends React.Component {
         this.state = {
             message: '',
             phone: false,
-            email: true
+            email: true,
+            contact: false
         }
         this.handlePhone = this.handlePhone.bind(this);
         this.handleEmail = this.handleEmail.bind(this);
+        this.handleContact = this.handleContact.bind(this);
     }
 
     handlePhone() {
@@ -28,6 +30,12 @@ class ContactForm extends React.Component {
         })
     }
 
+    handleContact() {
+        this.setState({
+          contact: !this.state.contact
+        })
+    }
+
     sendEmail = (e) => {
         e.preventDefault();
         if(this.state.phone === false && this.state.email === false){
@@ -39,7 +47,7 @@ class ContactForm extends React.Component {
             this.setState({
                 message: 'Sending message...'
             });
-            emailjs.sendForm('service_7u3xx4f', 'template_jlxdog6', e.target, 'user_rOlcwNHj5N8gq6GYBPeyK')
+            emailjs.sendForm('service_hdyjw5q', 'template_zjvyee5', e.target, 'user_ebmznMDN64Ho5dSu05f3i')
             .then((result) => {
             console.log(result.text);
             this.setState({
@@ -71,9 +79,9 @@ class ContactForm extends React.Component {
                 <form onSubmit={this.sendEmail.bind(this)}>
                     <div><input type="text" placeholder="Name" className="contact-input" name="name" required /></div>
                     <div className="contact-method">
-                        <div>Method of contact</div>
-                        <div>Email<input type="checkbox" className="contact-checkbox" checked={this.state.email} onChange={this.handleEmail} /></div>
-                        <div>Phone<input type="checkbox" className="contact-checkbox" checked={this.state.phone} onChange={this.handlePhone} /></div>
+                        <div>Contact Method</div>
+                        <div>Email<input type="checkbox" className="contact-checkbox" checked={this.state.email} onChange={this.handleEmail}/></div>
+                        <div>Phone<input type="checkbox" className="contact-checkbox" checked={this.state.phone} onChange={this.handlePhone}/></div>
                     </div>
                     {emailContent}
                     {phoneContent}
@@ -89,3 +97,9 @@ class ContactForm extends React.Component {
 }
 
 export default ContactForm;
+
+/*
+<div className="contact-reply">
+                        <div>Is it okay to leave a message? <input type="checkbox" className="contact-checkbox" checked={this.state.contact} name="contact" onChange={this.handleContact}/></div>
+                    </div>
+*/

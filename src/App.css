@@ -147,7 +147,7 @@
 }
 
 .contact-info {
-  font-size: 24pt;
+  font-size: 2vw;
   color: #5E5E5E;
   font-family: 'Josefin Sans', sans-serif;
   margin: 30px;
@@ -260,11 +260,25 @@
 .image1 {
   margin: 0px 20px;
   border-radius: 10px;
+  width: 40%;
+  object-fit: cover;
 }
 
 .paragraph1 {
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3vw;
+  font-weight: bold;
+  line-height: 2vw;
+}
+
+.paragraph2 {
+  text-align: left;
+  margin-bottom: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5vw;
+  font-weight: bolder;
 }
 
 .header-image {
@@ -373,6 +387,7 @@
   padding: 20px;
   border-right: 1px solid #5E5E5E;
   text-align: left;
+  width: 15%;
 }
 
 .side-items {
@@ -419,7 +434,7 @@
   align-items: center;
   padding: 3px;
   position: fixed;
-  top: 15px;
+  top: 22px;
   cursor: pointer;
   background-color: #EBEDEC;
 }
@@ -490,30 +505,231 @@
 .home-img {
   border-radius: 20px;
   position: fixed;
+  height: 65%;
 }
 
 .home-title {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   position: fixed;
   top: 1%;
   z-index: 1000;
-  height: 10%;
+  height: 13%;
   padding-right: 1%;
 }
 
 .home-words {
   position: fixed;
-  top: 12%;
+  top: 14%;
   z-index: 1000;
   height: 10%;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   font-size: 2.5vh;
+  display: flex;
 }
 
 .title-cont {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.top-logo {
+  height: 80px;
+}
+
+.top-title {
+  height: 70px;
+}
+
+.view-mob {
+  font-size: 0pt;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: grey;
+}
+
+.contact-reply {
+  font-size: 20pt;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  max-width: 40%;
+  margin: auto;
+  font-weight: bold;
+  color: grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.footer {
+  padding: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1vw;
+  border-top: 1px solid lightgrey;
+}
+
+.contact-me{
+  padding: 30px 5px;
+  font-size: 2vw;
+  max-width: 100%;
+  float: left;
+  margin: 0;
+  text-decoration: none;
+}
+
+.contact-me:hover {
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 1000px) {
+  .home-img {
+    max-width: 45%;
+    height: auto;
+    max-height: 65%;
+  }
+  .contact-me {
+    max-width: 100%;
+  }
+  .footer {
+    font-size: 2vw;
+  }
+  .topbar-info {
+    font-size: 10pt;
+  }
+  .about-container{
+    padding: 0px 5%;
+  }
+  .services-container{
+    padding: 0px 5%;
+  }
+  .side-navbar {
+    width: 50%;
+  }
+  .side-item {
+    font-size: 2vw;
+  }
+  .paragraph1{
+    font-size: 2vw;
+    line-height: 3vw;
+  }
+  .paragraph2{
+    font-size: 2.5vw;
+  }
+  .contact-input{
+    max-width: 80%;
+  }
+  .contact-message{
+    max-width: 80%;
+  }
+  .contact-submit{
+    max-width: 80%;
+  }
+  .contact-reply{
+    max-width: 80%;
+    font-size: 20pt;
+  }
+  .contact-method{
+    max-width: 80%;
+    font-size: 20pt;
+    flex-direction: column;
+    align-items: baseline;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .home-nav {
+    width: 100%;
+    padding: 0;
+    padding-top: 10%;
+    background-image: url("./Background7.jpg");
+    background-size: cover;
+  }
+  .contact-me {
+    max-width: 100%;
+    font-size: 4vw;
+  }
+  .footer {
+    font-size: 3vw;
+  }
+  .home-pic {
+    width: 0%;
+  }
+  .home-img {
+    height: 0;
+  }
+  .home-item {
+    font-size: 5vw;
+  }
+  .home-items {
+    height: 60%
+  }
+  .topbar-info {
+    font-size: 0;
+  }
+  .view-mob{
+    font-size: 12pt;
+  }
+  .side-navbar {
+    width: 100%;
+    padding: 0;
+    padding-top: 10%;
+  }
+  .side-item {
+    font-size: 3.5vw;
+  }
+  .about-container{
+    flex-direction: column;
+    padding: 0px 5%;
+  }
+  .services-container{
+    flex-direction: column;
+    padding: 0px 5%;
+  }
+  .paragraph1{
+    font-size: 3.5vw;
+    line-height: 5vw;
+  }
+  .paragraph2{
+    font-size: 4.5vw;
+  }
+  .image1{
+    width: 100%;
+    margin: 40px 0;
+    margin-top: -30px;
+  }
+  .top-logo{
+    height: 50px;
+  }
+  .top-title{
+    height: 40px;
+  }
+  .App{
+    margin-top: 50px;
+  }
+  .menu-button{
+    top: 16px;
+  }
+  .contact-info{
+    font-size: 5vw;
+  }
+  .home-title{
+    height: 10%;
+    top: 3%;
+  }
+  .home-logo-1{
+    width: 0;
+  }
+  .home-words{
+    flex-direction: column;
+  }
+  .dis-mob{
+    width: 0;
+  }
+  .serv-img{
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
 }

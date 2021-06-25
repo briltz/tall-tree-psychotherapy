@@ -3,7 +3,10 @@ import './App.css';
 import pic1 from './About1.jpg';
 import pic2 from './About2.jpg';
 import Topbar from './Topbar';
+import Footer from './Footer';
 import { AnimatePresence, motion } from 'framer-motion';
+import { about1, about2, about3, about4, about5, about6 } from './TextContent.json';
+import {Link} from 'react-router-dom';
 
 class About extends React.Component {
     render() {
@@ -19,30 +22,34 @@ class About extends React.Component {
                 </div>
                 <div className="about-container">
                     <div>
-                        <div className="subheader2">Who am I?</div>
-                        <div className="paragraph1">
-                            My name is Tracy. I am a psychotherapist. I like doing psychotherapist things.
+                        <div className="paragraph2">
+                            {about1}
                         </div>
-                        <div>
-                            <div className="subheader2">Education & Training</div>
-                            <div className="paragraph1">I went to a school. I am a registered Psychotherapist with a Masters of Arts in counseling.</div>
+                        <div className="paragraph1">
+                            {about2}
+                        </div>
+                        <div className="paragraph1">
+                            {about3}
+                        </div>
+                        <div className="paragraph1">
+                            {about4}
                         </div>
                     </div>
-                    <img src={pic1} alt="image" width="40%" className="image1" />
+                    <img src={pic1} alt="image" className="image1 dis-mob" />
                 </div>
                 <div className="about-container">
-                    <img src={pic2} alt="image" width="40%" className="image1" />
+                    <img src={pic2} alt="image" className="image1" />
                     <div>
-                        <div className="subheader2">Who am I?</div>
                         <div className="paragraph1">
-                            My name is Tracy. I am a psychotherapist. I like doing psychotherapist things.
+                            {about5}
                         </div>
-                        <div>
-                            <div className="subheader2">Education & Training</div>
-                            <div className="paragraph1">I went to a school. I am a registered Psychotherapist with a Masters of Arts in counseling.</div>
+                        <div className="paragraph1">
+                            {about6}
                         </div>
+                        <div><Link to='/contact' className="contact-submit contact-me">Contact me for more information</Link></div>
                     </div>
                 </div>
+                <Footer />
             </motion.div>
         )
     }

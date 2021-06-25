@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import logo from './TTP_Logo_PNG.png';
-import words from './TTP_Words1.png';
+import logo from './Logo-No-Background.png';
+import words from './Tall-Tree-Lettering-No-Background.png';
 import {Link} from 'react-router-dom';
 import HomePic from './Services1.jpg';
 import AboutPic from './About2.jpg';
@@ -107,28 +107,27 @@ class Home2 extends React.Component {
             >
                 <div className="title-cont">
                 <div className="home-title">
-                    <img src={logo} alt="logo" height="100%" />
-                    <img src={words} alt="title" height="85%" />
+                    <img src={logo} alt="logo" height="90%" class="home-logo-1"/>
+                    <img src={words} alt="title" height="100%" />
                 </div>
-                <div className="home-words">Tracy Bertrim, MA, Registered Psychotherapist</div>
+                <div className="home-words"><div>Tracy Bertrim, M.A.,&nbsp;</div><div>Registered Psychotherapist</div></div>
                 </div>
                 <div className="home-container">
                     <div className="home-nav">
                         <div className="home-items">
                             <Link to='/about' className="home-item" onMouseOver={this.switchAbout} onMouseLeave={this.switchHome}>ABOUT ME</Link>
-                            <Link to='/learn' className="home-item" onMouseOver={this.switchLearn} onMouseLeave={this.switchHome}>WHAT IS PSYCHOTHERAPY?</Link>
                             <Link to='/services' className="home-item" onMouseOver={this.switchServices} onMouseLeave={this.switchHome}>SERVICES</Link>
                             <Link to='/faq' className="home-item" onMouseOver={this.switchFAQ} onMouseLeave={this.switchHome}>FAQ</Link>
                             <Link to='/contact' className="home-item" onMouseOver={this.switchContact} onMouseLeave={this.switchHome}>CONTACT</Link>
                         </div>
                     </div>
                     <div className="home-pic">
-                        <Fade in={this.state.home} timeout={500}><img src={HomePic} alt="home" height="65%" className="home-img" /></Fade>
-                        <Fade in={this.state.about} timeout={500}><img src={AboutPic} alt="home" height="65%" className="home-img" /></Fade>
-                        <Fade in={this.state.learn} timeout={500}><img src={LearnPic} alt="home" height="65%" className="home-img" /></Fade>
-                        <Fade in={this.state.services} timeout={500}><img src={ServicesPic} alt="home" height="65%" className="home-img" /></Fade>
-                        <Fade in={this.state.faq} timeout={500}><img src={FAQPic} alt="home" height="65%" className="home-img" /></Fade>
-                        <Fade in={this.state.contact} timeout={500}><img src={ContactPic} alt="home" height="65%" className="home-img" /></Fade>
+                        <Fade in={this.state.home} timeout={500}><img src={HomePic} alt="home" className="home-img" /></Fade>
+                        <Fade in={this.state.about} timeout={500}><img src={AboutPic} alt="home" className="home-img" /></Fade>
+                        <Fade in={this.state.learn} timeout={500}><img src={LearnPic} alt="home" className="home-img" /></Fade>
+                        <Fade in={this.state.services} timeout={500}><img src={ServicesPic} alt="home" className="home-img" /></Fade>
+                        <Fade in={this.state.faq} timeout={500}><img src={FAQPic} alt="home" className="home-img" /></Fade>
+                        <Fade in={this.state.contact} timeout={500}><img src={ContactPic} alt="home" className="home-img" /></Fade>
                     </div>
                 </div>
             </motion.div>

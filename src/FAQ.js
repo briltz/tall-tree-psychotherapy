@@ -48,9 +48,20 @@ class FAQ extends React.Component {
                 exit={{ opacity: 0 }}
             >
                 <Topbar />
-                <div className="header-image2">
+                <div className="header-image3">
                     <div className="services1">FAQ</div>
                 </div>
+                <div className="services1">
+                    Coming Soon
+                </div>
+            </motion.div>
+        )
+    }
+}
+
+export default FAQ;
+
+/*
                 <div>
                     <div className="faq-container">
                     <ReactCardFlip isFlipped={this.state.q1} flipDirection="vertical">
@@ -113,9 +124,4 @@ class FAQ extends React.Component {
                     </ReactCardFlip>
                     </div>
                 </div>
-            </motion.div>
-        )
-    }
-}
-
-export default FAQ;
+                */
